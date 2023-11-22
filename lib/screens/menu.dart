@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/left_drawer.dart';
-import '../widgets/shop_card.dart';
+import 'package:shopping_list/widgets/left_drawer.dart';
+import 'package:shopping_list/widgets/shop_card.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
@@ -17,7 +17,6 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Shopping List',
-          style: TextStyle(color: Colors.white)
         ),
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
